@@ -26,6 +26,7 @@ dependencies {
 	implementation 'com.querydsl:querydsl-jpa'
 	//실제 운영에서는 성능테스트를 해볼것 로그남기는게 성능보다 중요하면 사용
 	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.8'
+	implementation 'org.projectlombok:lombok:1.18.16'
 
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
